@@ -33,7 +33,7 @@ This tool is designed to be **simple**, **auditable**, and with **zero external 
 
 3. Install it somewhere into your system path
    ```bash
-   cp ./passgen /usr/local/bin/
+   cp ./passgen $HOME/.local/bin/
    ```
 
 ## Usage
