@@ -1,6 +1,6 @@
 # PassGen - Password Generator
 
-PassGen is a simple command-line tool written in Go that generates secure random passwords. It provides various options to customize the generated password, such as length, inclusion of special characters, lowercasing.
+PassGen is a simple command-line password generation tool. It provides various options to customize the generated password, such as length, inclusion of special characters, lowercasing.
 
 It allows you to directly copy the password to the system clipboard.
 
@@ -51,23 +51,6 @@ Options:
 
 By default, the password is printed to stdout.
 ```
-
-### Options
-
-- `-n N`
-  Set password length (default: 10, minimum: 4).
-
-- `-c`
-  Copy the generated password to the clipboard.
-
-- `-s`
-  Include special characters in the password.
-
-- `-l`
-  Use only lowercase letters in the password.
-
-- `-h`
-  Show the help message.
 
 ### Examples
 
