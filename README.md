@@ -54,30 +54,30 @@ By default, the password is printed to stdout.
 
 ### Examples
 
-1. Generate a password of length 12:
-   ```bash
-   ./passgen -n 12
-   ```
+Generate a password of length 12:
+```bash
+./passgen -n 12
+```
 
-2. Generate a password with special characters:
-   ```bash
-   ./passgen -s
-   ```
+Generate a password with special characters:
+```bash
+./passgen -s
+```
 
-3. Generate a password and copy it to the clipboard:
-   ```bash
-   ./passgen -c
-   ```
+Generate a password and copy it to the clipboard:
+```bash
+./passgen -c
+```
 
-4. Generate a password with only lowercase letters:
-   ```bash
-   ./passgen -l
-   ```
+Generate a password with only lowercase letters:
+```bash
+./passgen -l
+```
 
-5. Show the help message:
-   ```bash
-   ./passgen -h
-   ```
+Show the help message:
+```bash
+./passgen -h
+```
 
 ## Platform Support
 
