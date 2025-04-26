@@ -15,26 +15,19 @@ This tool is designed to be **simple**, **auditable**, and with **zero external 
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/huyng/passgen.git
-   cd passgen
-   ```
+#### Method 1: Install to custom location on your $PATH
 
-2. Build the binary:
-   ```bash
-   go build
-   ```
+```bash
+git clone https://github.com/huyng/passgen.git
+cd passgen
+go build
+cp ./passgen $HOME/.local/bin/
+```
 
-3. Run the binary:
-   ```bash
-   ./passgen
-   ```
-
-3. Install it somewhere into your system path
-   ```bash
-   cp ./passgen $HOME/.local/bin/
-   ```
+#### Method 2: Install into $GOPATH/bin
+```bash
+go install github.com/huyng/passgen@latest
+```
 
 ## Usage
 
